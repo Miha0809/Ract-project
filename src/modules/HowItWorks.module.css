@@ -1,0 +1,43 @@
+.wrapper {
+  padding-bottom: 50px;
+}
+
+.header {
+  width: 42%;
+  margin-top: 50px;
+}
+
+.header .title {
+  color: #1f343a;
+}
+
+.header .text {
+  line-height: 30px;
+}
+
+.works {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/********************** Services **********************/
+
+.services .content {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.services .content .left {
+  position: relative;
+  left: -110px;
+  width: 585px;
+  height: 567px;
+  background-color: #b4d2e1;
+}
+
+.right {
+  width: 39%;
+  float: right;
+  text-align: justify;
+  line-height: 20px;
+}

@@ -1,0 +1,21 @@
+.background {
+  display: flex;
+  position: relative;
+  right: 50%;
+  width: 199.359%;
+  background-color: #f6f5f4;
+}
+
+.background main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.background main .content .apartments{
+  display: flex;
+}
+
+.background main .content .header .text {
+  display: flex;
+  width: 42%;
+}

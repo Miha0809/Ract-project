@@ -1,0 +1,42 @@
+.background {
+  display: flex;
+  position: relative;
+  right: 50%;
+  width: 199.359%;
+  background-color: #f6f5f4;
+}
+
+.background main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.background main .more {
+  width: 45%;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.appartments {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.background main .bottom {
+  display: flex;
+  margin: 0 0 50px 15px;
+}
+
+.background main .bottom .viewAll {
+  margin-left: 20px;
+}
+
+.background main .bottom .viewAll button {
+  width: 220px;
+  height: 45px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: #fff;
+}

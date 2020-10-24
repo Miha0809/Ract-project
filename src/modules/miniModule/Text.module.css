@@ -1,0 +1,10 @@
+.title{
+  margin-left: 5px;
+}
+
+.text p {
+  text-align: justify;
+  font-size: 12px;
+  color: black;
+  line-height: 25px;
+}

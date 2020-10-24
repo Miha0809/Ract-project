@@ -1,0 +1,138 @@
+/********************** Start menu top **********************/
+.top_menu {
+  display: flex;
+}
+
+.top_menu .logo {
+  padding-top: 20px;
+}
+
+.top_menu .logo img {
+  width: 110px;
+  height: 50px;
+}
+
+.top_menu .navigator {
+  display: flex;
+}
+
+.top_menu .navigator nav ul li {
+  float: left;
+  margin-left: 30px;
+}
+
+.top_menu .navigator .login nav ul li {
+  float: right;
+}
+
+.top_menu .navigator .login .started {
+  margin-top: 5px;
+  padding: 15px 20px;
+  background-color: #fac528;
+  border-radius: 10px;
+}
+
+.top_menu .navigator .login nav ul a li {
+  padding-right: 5px;
+}
+/********************** End menu top **********************/
+
+/********************** Start main manu **********************/
+.main_menu {
+  display: flex;
+  margin-top: 25px;
+}
+
+.main_menu .test {
+  position: relative;
+  width: 100%;
+  background-color: #9fbfce;
+  left: 100px;
+}
+
+.main_menu .left {
+  position: relative;
+  width: 35%;
+  margin-top: 15%;
+  right: 100px;
+}
+
+.main_menu .left h1 {
+  color: #545B6B;
+  display: flex;
+  text-transform: capitalize;
+}
+
+.main_menu .test .info {
+  display: flex;
+  float: right;
+  padding-top: 29.9%;
+}
+
+.main_menu .test .info .phone, .location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 60px;
+  background-color: #fac528;
+}
+
+.main_menu .test .info .phone .phone_icon, .location .location_icon{
+  padding-right: 20px;
+}
+
+.main_menu .test .info .phone p, .location p {
+  font-weight: bold;
+}
+
+.scroll_down {
+  float: left;
+  margin-left: -40px;
+  margin-top: 280px;
+  
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.main_menu .test .info .scroll_down span {
+  text-transform: capitalize;
+}
+/********************** End main menu **********************/
+
+/********************** Start main bottom **********************/
+.main_bottom {
+  display: flex;
+  width: 100%;
+  height: 40em;
+  margin-top: 145px;
+}
+
+.main_bottom .left2 {
+  width: 70%;
+}
+
+.main_bottom .left2 .text_left {
+  display: flex;
+  width: 40%;
+  text-transform: capitalize;
+}
+
+
+.main_bottom .left2 .text {
+  line-height: 35px;
+}
+
+.main_bottom .right2 {
+  width: 60%;
+}
+
+.main_bottom .right2 .statistics {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/********************** End main bottom **********************/

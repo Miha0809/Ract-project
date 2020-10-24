@@ -1,0 +1,34 @@
+.appartment {
+  background-color: #fff;
+  width: 245px;
+  height: 365px;
+  margin: 15px 30px;
+}
+
+.appartment .photo {
+  display: flex;
+  height: 266px;
+  background-color: aqua;
+}
+
+.appartment .description {
+  padding: 10px;
+}
+
+.appartment .description .name {
+  position: relative;
+  font-weight: bold;
+  bottom: 15px;
+}
+
+.appartment .description .price {
+  float: left;
+  position: relative;
+  bottom: 50px;
+}
+
+.appartment .description .price p {
+  font-size: 20px;
+  color: #fac528;
+  font-weight: 1000;
+}

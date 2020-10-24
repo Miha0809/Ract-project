@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.work {
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 370px;
+  margin: 10px;
+  color: #1f343a;
+  transition: 0.5s;
+}
+
+.work:hover {
+  background-color: #fac528;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+.work:not(:hover) p {
+  color: #000;
+  transition: 0.5s;
+}
+
+.work:hover p {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.number p{
+  font-family: Montserrat;
+  position: absolute;
+  top: -310px;
+  left:-70px;
+  font-size: 200px;
+}
+
+.work .description {
+  width: 80%;
+  margin-top: 120px;
+  margin-left: 35px;
+}
+
+.work .description .title p{
+  position: relative;
+  left: -15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.work .description .text {
+  margin-top: -10px;
+  line-height: 30px;
+}

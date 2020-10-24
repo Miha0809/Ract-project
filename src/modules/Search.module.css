@@ -1,0 +1,16 @@
+.search input {
+    height: 42px;
+    font-size: 20px;
+    width: 70%;
+    border-radius: 5px 0 0 5px;
+    border: 0px solid;
+}
+
+.search button {
+    height: 44px;
+    font-size: 20px;
+    width: 29%;
+    border-radius: 0 5px 5px 0;
+    border: 0px solid;
+    background-color: #fac528;
+}
